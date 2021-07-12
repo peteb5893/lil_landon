@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Creating a Serverless Application using React in AWS
+This code repository contains the completed coursework for the LinkedIn Learning course by Brett McLaughlin.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to course: 
+[Creating a Serverless Application using React in AWS](https://www.linkedin.com/learning/creating-a-serverless-application-using-react-in-aws)
 
-## Available Scripts
+Link to finished API endpoints:
+- [GET /services](https://p8f0z0fk8i.execute-api.eu-west-1.amazonaws.com/Production/services)
+- [GET /accessibilities](https://p8f0z0fk8i.execute-api.eu-west-1.amazonaws.com/Production/accessibilities)
+- [GET /menu_links](https://p8f0z0fk8i.execute-api.eu-west-1.amazonaws.com/Production/menu_links)
+- [GET /gallery_images](https://p8f0z0fk8i.execute-api.eu-west-1.amazonaws.com/Production/gallery_images)
 
-In the project directory, you can run:
+Link to finished Landon Hotel web app, hosted on AWS using Amplify:
+https://master.d3nj9zptage4h4.amplifyapp.com/
 
-### `npm start`
+Learnings:
+- Basics of React (components, state, hooks etc)
+- Use Create React App template
+- Use GitHub for source control
+- Create stubbed API data for local development.
+- Use AWS Amplify to auto-deploy when code pushed to GitHub
+- Use DynamoDB to store dynamic data for your app (included intro to roles and users)
+- Use AWS Lambda to call out to DynamoDb and return data
+- Use AWS API Gateway to map routes to AWS Lambda functions
+- Call out from application to API Gateway endpoints to use dynamic data in React App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall Thoughts: </br>
+A very good intro to AWS and React. Brett's teaching style suited my learning style and I found the "Challenges" were a great way to stay engaged throughout the course. I would highly recommend this course to those interested in developing AWS Cloud-hosted applications.
