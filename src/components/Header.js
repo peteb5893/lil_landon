@@ -5,16 +5,13 @@ const Header = () => {
   const [menuLinksData, setMenuLinksData] = useState([]);
 
   const loadMenuLinksData = async() => {
-    // query the API Gateway
     const resp = await fetch("https://p8f0z0fk8i.execute-api.eu-west-1.amazonaws.com/Production/menu_links");
     let jsonData = await resp.json();
 
-    // assign response data to state variable
     setMenuLinksData(jsonData);
   }
 
   useEffect(() => {
-    // load the menu links from the API Gateway
     loadMenuLinksData();
   }, []);
 
