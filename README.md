@@ -10,9 +10,6 @@ Link to finished API endpoints:
 - [GET /menu_links](https://p8f0z0fk8i.execute-api.eu-west-1.amazonaws.com/Production/menu_links)
 - [GET /gallery_images](https://p8f0z0fk8i.execute-api.eu-west-1.amazonaws.com/Production/gallery_images)
 
-Link to finished Landon Hotel web app, hosted on AWS using Amplify:
-https://master.d3nj9zptage4h4.amplifyapp.com/
-
 Learnings:
 - Basics of React (components, state, hooks etc)
 - Use Create React App template
